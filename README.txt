@@ -1,6 +1,6 @@
 === Introduccion ===
 
-Proyecto fin de carrera de la titulacion de Ingenieria Tecnica en Informatica de Gestion realizado por el alumno Manuel Lorenzo Parejo durante el curso 2008/2009.
+Proyecto fin de carrera de la titulacion de Ingenieria Tecnica en Informatica de Gestion realizado por Manuel Lorenzo (http://www.manulorenzo.net) durante el curso 2008/2009 en la ETSII Sevilla (http://www.informatica.us.es)
 
 El objetivo de este proyecto consiste en la simulacion del software que corre en un dispositivo presente en los nuevos sistemas V2V que cada vez tienden a tener una mayor
 presencia en el mercado automovilistico, y que se presume acabaran finalmente implantandose a corto-medio plazo, debido a las interesantes ventajas que ofrecen.
