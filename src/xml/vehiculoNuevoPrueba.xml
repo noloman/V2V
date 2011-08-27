@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehiculo nombre="Vehiculo2" tipo="Coche" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:C:/Users/Manolo/Workspace/Proyecto/src/xml/XMLSchema.xsd" >
+	<informacion_propia>
+		<distancia>97.0</distancia>
+		<velocidad>120</velocidad>
+		<vmax>150</vmax>
+		<aceleracion>0</aceleracion>
+		<direccion>sur</direccion>
+		<clima>despejado</clima>
+		<tiempo>2009-05-18T16:00:00.00+02:00</tiempo>
+	</informacion_propia>
+	<informacion_ajena>
+	<vehiculo tipo="Coche" nombre="Vehiculo9">
+		<distancia>9.4</distancia>
+		<velocidad>30</velocidad>
+		<vmax>90</vmax>
+		<aceleracion>0</aceleracion>
+		<direccion>norte</direccion>
+		<clima>nieve</clima>
+		<tiempo>2009-05-19T09:08:45.296+02:00</tiempo>
+	</vehiculo>
+	<vehiculo tipo="Coche" nombre="Vehiculo9">
+		<distancia>3.0</distancia>
+		<velocidad>100</velocidad>
+		<vmax>90</vmax>
+		<aceleracion>0</aceleracion>
+		<direccion>norte</direccion>
+		<clima>nieve</clima>
+		<tiempo>2009-05-19T13:35:53.195+02:00</tiempo>
+	</vehiculo>
+	<vehiculo tipo="Coche" nombre="Vehiculo4">
+		<distancia>12.0</distancia>
+		<velocidad>40</velocidad>
+		<vmax>120</vmax>
+		<aceleracion>2</aceleracion>
+		<direccion>norte</direccion>
+		<clima>despejado</clima>
+		<tiempo>2009-05-19T14:56:12.585+02:00</tiempo>
+	</vehiculo>
+	<vehiculo tipo="Emergencias" nombre="Emergencias1">	
+		<distancia>1.0</distancia>
+		<velocidad>140</velocidad>
+		<vmax>120</vmax>
+		<aceleracion>2</aceleracion>
+		<direccion>norte</direccion>
+		<clima>despejado</clima>
+		<tiempo>2009-05-19T10:10.585+02:00</tiempo>
+	</vehiculo>
+	</informacion_ajena>
+</vehiculo>

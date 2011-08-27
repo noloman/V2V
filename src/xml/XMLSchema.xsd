@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="aceleracion">
+    <xs:complexType mixed="true" />
+  </xs:element>
+  <xs:element name="clima">
+    <xs:complexType mixed="true" />
+  </xs:element>
+  <xs:element name="direccion">
+    <xs:complexType mixed="true" />
+  </xs:element>
+  <xs:element name="distancia">
+    <xs:complexType mixed="true" />
+  </xs:element>
+  <xs:element name="informacion_ajena">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vehiculo" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="informacion_propia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="distancia" />
+        <xs:element ref="velocidad" />
+        <xs:element ref="vmax" />
+        <xs:element ref="aceleracion" />
+        <xs:element ref="direccion" />
+        <xs:element ref="clima" />
+        <xs:element ref="tiempo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tiempo">
+    <xs:complexType mixed="true" />
+  </xs:element>
+  <xs:element name="vehiculo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="informacion_propia" minOccurs="0"/>
+        <xs:element ref="informacion_ajena" minOccurs="0"/>
+        
+        <xs:element ref="distancia" minOccurs="0" />
+        <xs:element ref="velocidad" minOccurs="0" />
+        <xs:element ref="vmax" minOccurs="0" />
+        <xs:element ref="aceleracion" minOccurs="0" />
+        <xs:element ref="direccion" minOccurs="0" />
+        <xs:element ref="clima" minOccurs="0" />
+        <xs:element ref="tiempo" minOccurs="0" />
+      </xs:sequence>
+      <xs:attribute name="tipo" type="xs:NMTOKEN" use="required" />
+      <xs:attribute name="nombre" type="xs:NMTOKEN" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="velocidad">
+    <xs:complexType mixed="true" />
+  </xs:element>
+  <xs:element name="vmax">
+    <xs:complexType mixed="true" />
+  </xs:element>
+</xs:schema>

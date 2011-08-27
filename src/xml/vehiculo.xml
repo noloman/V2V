@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehiculo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nombre="Vehiculo1" tipo="Coche" xsi:noNamespaceSchemaLocation="file:C:/Users/Manolo/Workspace/Proyecto/src/xml/XMLSchema.xsd">
+	<informacion_propia>
+		<distancia>3.0</distancia>
+		<velocidad>100</velocidad>
+		<vmax>120</vmax>
+		<aceleracion>0</aceleracion>
+		<direccion>norte</direccion>
+		<clima>despejado</clima>
+		<tiempo>2009-05-18T16:00:00.00+02:00</tiempo>
+	</informacion_propia>
+<informacion_ajena>
+</informacion_ajena>
+</vehiculo>
