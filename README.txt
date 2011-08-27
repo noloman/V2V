@@ -14,8 +14,8 @@ presencia en el mercado automovilistico, y que se presume acabaran finalmente im
 
 - Este proyecto ha sido realizado con el IDE Eclipse 3.3 Ganymede
 
-- Dentro del proyecto, en la carpeta JavaDoc viene incluida la documentación del codigo del mismo.
+- Dentro del proyecto, en la carpeta JavaDoc viene incluida la documentacion del codigo del mismo.
 
-- Para la ejecución de la aplicacion, es necesario o bien, añadir la informacion sobre los vehiculos de manera manual (ya hay ejemplos comentados de esto en la clase Comprobaciones) o bien añadir la informacion de los mismos en el fichero vehiculoNuevoPrueba.xml y ejecutar el programa para que se concatene a vehiculo.xml o bien directamente añadir dicha informacion sobre los vehiculos al fichero vehiculo.xml
+- Para la ejecucion de la aplicacion, es necesario o bien, añadir la informacion sobre los vehiculos de manera manual (ya hay ejemplos comentados de esto en la clase Comprobaciones) o bien añadir la informacion de los mismos en el fichero vehiculoNuevoPrueba.xml y ejecutar el programa para que se concatene a vehiculo.xml o bien directamente añadir dicha informacion sobre los vehiculos al fichero vehiculo.xml
 
-- Al carecer de interfaz grafica, es necesario ejecutar la aplicación a través del IDE Eclipse o del compilador de Java.
+- Al carecer de interfaz grafica, es necesario ejecutar la aplicación a traves del IDE Eclipse o del compilador de Java.
