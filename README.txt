@@ -1,3 +1,8 @@
+Proyecto fin de carrera de la titulacion de Ingenieria Tecnica en Informatica de Gestion realizado por el alumno Manuel Lorenzo Parejo durante el curso 2008/2009.
+
+El objetivo de este proyecto consiste en la simulacion del software que corre en un dispositivo presente en los nuevos sistemas V2V que cada vez tienden a tener una mayor
+presencia en el mercado automovilistico, y que se presume acabaran finalmente implantandose a corto-medio plazo, debido a las interesantes ventajas que ofrecen.
+
 - Este proyecto ha sido realizado con el IDE Eclipse 3.3 Ganymede
 
 - Las librerias de los framworks JDom y Joda Time hay que instalarlas (instrucciones tanto en los respectivos paquetes de los frameworks o en la documentacion del proyecto).
